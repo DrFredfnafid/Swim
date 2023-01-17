@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Toni Hub | Free Version", "Midnight")
+
+---Tabs
+
+local Tab1 = Window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main Script")
+local Tab2 = Window:NewTab("More Hub")
+local Tab2Section = Tab2:NewSection("Im Not LGBT")
+local Tab3 = Window:NewTab("Games Hub")
+local Tab3Section = Tab3:NewSection("Games Hub")
+local Tab4 = Window:NewTab("Premium Games Hub")
+local Tab4Section = Tab4:NewSection("Buy Premium")
+local Tab5 = Window:NewTab("Script Main Premium")
+local Tab5Section = Tab5:NewSection("Buy Premium Main Script")
+local Tab6 = Window:NewTab("Credit")
+local Tab6Section = Tab6:NewSection("Credit")
+local Tab7 = Window:NewTab("RIP People")
+local Tab7Section = Tab7:NewSection("RIP 🕊️")
+
+---Buttons
+
+Tab1Section:NewButton("Keyboard", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab1Section:NewButton("Mouse", "Pc Like Mouse", function()
+    loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+end)
+
+Tab2Section:NewButton("Pendulum Hub", "No Description", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+Tab2Section:NewButton("Partypooper Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DrFredfnafid/Partypooper-/main/Partypooper%20Hub"))()
+end)
+
+Tab2Section:NewButton("Gelate Hub", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
